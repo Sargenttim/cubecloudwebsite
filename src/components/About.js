@@ -48,14 +48,14 @@ const About = () => {
               <h4 className="h-color">⚡ Bot Updates</h4>
               <p className="p-color">
                 Lasted Updates:
-                Added Anti System (WIP)
+                Added Anti System (WIP), Fixed Welcome Systen
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✉️ Discord Updates</h4>
               <p className="p-color">
-                Non
+                Added in Tickets for Support, Fixed invite links, Added invite bot.
               </p>
               <hr />
             </div>
