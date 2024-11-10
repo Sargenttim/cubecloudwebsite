@@ -114,7 +114,7 @@ export default function Commands() {
                   <span className="p-color">Manage AI Channels for your server.</span>
                 </li>
                 <li>
-                  <kbd>Boost log</kbd> -{" "}
+                  <kbd>Boost-logs</kbd> -{" "}
                   <span className="p-color">Manage the boost logging system.</span>
                 </li>
                 <li>
@@ -126,15 +126,15 @@ export default function Commands() {
                   <span className="p-color">Create and manage server events interactively.</span>
                 </li>
                 <li>
-                  <kbd>Global Chat</kbd> -{" "}
+                  <kbd>GlobalChat</kbd> -{" "}
                   <span className="p-color">Manage Global chat.</span>
                 </li>
                 <li>
-                  <kbd>Giveaway</kbd> -{" "}
+                  <kbd>gstart (Giveaway)</kbd> -{" "}
                   <span className="p-color">Mangage Giveaways.</span>
                 </li>
                 <li>
-                  <kbd>Join To Create VC</kbd> -{" "}
+                  <kbd>JoinToCreate (VC)</kbd> -{" "}
                   <span className="p-color">Manage the Join-To-Create System.</span>
                 </li>
                 <li>
@@ -146,7 +146,7 @@ export default function Commands() {
                   <span className="p-color">Manage roles of the Server or Members.</span>
                 </li>
                 <li>
-                  <kbd>Logging (WIP SYSTEM)</kbd> -{" "}
+                  <kbd>setup-log (WIP SYSTEM)</kbd> -{" "}
                   <span className="p-color">Set up Logging System.</span>
                 </li>
                 <li>
@@ -154,7 +154,7 @@ export default function Commands() {
                   <span className="p-color">Be able to Set Everything up in this Cat.</span>
                 </li>
                 <li>
-                  <kbd>Sticky Messages</kbd> -{" "}
+                  <kbd>StickyMessages</kbd> -{" "}
                   <span className="p-color">Set up Sitcky Messages in channels.</span>
                 </li>
                 <li>
