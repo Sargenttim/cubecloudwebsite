@@ -317,6 +317,56 @@ export default function Commands() {
             </div>
           </section>
 
+          <input type="radio" name="accordion" id="cb6" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb6">
+            Moderation 🎮
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>ban</kbd> -{" "}
+                  <span className="p-color">Ban a user from the server</span>
+                </li>
+                <li>
+                  <kbd>clear</kbd> -{" "}
+                  <span className="p-color">Purge messages from a channel</span>
+                </li>
+                <li>
+                  <kbd>clone</kbd> -{" "}
+                  <span className="p-color">Clone a channel</span>
+                </li>
+                <li>
+                  <kbd>kick</kbd> -{" "}
+                  <span className="p-color">Kick a user from the Server</span>
+                </li>
+                <li>
+                  <kbd>lock</kbd> -{" "}
+                  <span className="p-color">Lock down a channel in the server</span>
+                </li>
+                <li>
+                  <kbd>Snipe</kbd> -{" "}
+                  <span className="p-color">Retrieve recently deleted messages, images, or all content in the server</span>
+                </li>
+                <li>
+                  <kbd>unban</kbd> -{" "}
+                  <span className="p-color">Unban any banned user form the Server</span>
+                </li>
+                <li>
+                  <kbd>unlock</kbd> -{" "}
+                  <span className="p-color">Unlock any Locked channel</span>
+                </li>
+                <li>
+                  <kbd>warning</kbd> -{" "}
+                  <span className="p-color">Manage user warnings: add, view, edit, or remove.</span>
+                </li>
+
+
+              </ul>
+            </div>
+          </section>
+
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
