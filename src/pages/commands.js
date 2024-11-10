@@ -167,22 +167,22 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
-              Fun 🐛
+            Conext Menu 📕
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Avatar</kbd> -{" "}
+                  <span className="p-color">Get the Avatar of a User</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Thanks</kbd> -{" "}
+                  <span className="p-color">Send a thanks to another user</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Translate</kbd> -{" "}
+                  <span className="p-color">Translate something to English</span>
                 </li>
               </ul>
             </div>
