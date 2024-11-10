@@ -238,22 +238,50 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb6" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb6">
-              Image 🖼️
+            Fun 🎮
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>advancement</kbd> -{" "}
+                  <span className="p-color">Generates a Minecraft Advancement</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>anime</kbd> -{" "}
+                  <span className="p-color">Get information about an Anime</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Birthdays</kbd> -{" "}
+                  <span className="p-color">Advanced birthday Management with personalized announcements and rewards</span>
+                </li>
+                <li>
+                  <kbd>cleverRate</kbd> -{" "}
+                  <span className="p-color">Rate a user on how clever are they</span>
+                </li>
+                <li>
+                  <kbd>facts</kbd> -{" "}
+                  <span className="p-color">Get a random Fact</span>
+                </li>
+                <li>
+                  <kbd>games</kbd> -{" "}
+                  <span className="p-color">Play various games with your friends in Discord</span>
+                </li>
+                <li>
+                  <kbd>gif</kbd> -{" "}
+                  <span className="p-color">Search a Gif</span>
+                </li>
+                <li>
+                  <kbd>hack (FUN ONLY)</kbd> -{" "}
+                  <span className="p-color">Hack Somone</span>
+                </li>
+                <li>
+                  <kbd>kill (FUN ONLY)</kbd> -{" "}
+                  <span className="p-color">Kill Someone</span>
+                </li>
+                <li>
+                  <kbd>Truthordare</kbd> -{" "}
+                  <span className="p-color">Play a fun and exciting game of Truth or Dare!</span>
                 </li>
               </ul>
             </div>
