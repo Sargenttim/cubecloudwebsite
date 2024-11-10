@@ -367,6 +367,64 @@ export default function Commands() {
             </div>
           </section>
 
+          <input type="radio" name="accordion" id="cb6" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb6">
+            Utility 🎮
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>calculator</kbd> -{" "}
+                  <span className="p-color">Calculator</span>
+                </li>
+                <li>
+                  <kbd>embed</kbd> -{" "}
+                  <span className="p-color">Embed any message you setup in a channel</span>
+                </li>
+                <li>
+                  <kbd>imageupload (WIP)</kbd> -{" "}
+                  <span className="p-color">Upload an attachment to the CDN repository</span>
+                </li>
+                <li>
+                  <kbd>InviteTracker</kbd> -{" "}
+                  <span className="p-color">Track any invites in your server</span>
+                </li>
+                <li>
+                  <kbd>music</kbd> -{" "}
+                  <span className="p-color">Be able to play music from the bot in any channel in your Server</span>
+                </li>
+                <li>
+                  <kbd>poll</kbd> -{" "}
+                  <span className="p-color">Setup a Poll system for users to Vote</span>
+                </li>
+                <li>
+                  <kbd>reminder</kbd> -{" "}
+                  <span className="p-color">Have the bot remind you of something at the end of the countdown</span>
+                </li>
+                <li>
+                  <kbd>say</kbd> -{" "}
+                  <span className="p-color">Have the bot say anything you want</span>
+                </li>
+                <li>
+                  <kbd>short</kbd> -{" "}
+                  <span className="p-color">Short a long url</span>
+                </li>
+                <li>
+                  <kbd>ss</kbd> -{" "}
+                  <span className="p-color">Take a SS of your web</span>
+                </li>
+                <li>
+                  <kbd>timer</kbd> -{" "}
+                  <span className="p-color">Set a countdown timer</span>
+                </li>
+
+
+              </ul>
+            </div>
+          </section>
+
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
