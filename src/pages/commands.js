@@ -101,7 +101,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-          <input type="radio" name="accordion" id="cb1" />
+          <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
               Administrator ⚙️
@@ -124,7 +124,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-          <input type="radio" name="accordion" id="cb2" />
+          <input type="radio" name="accordion" id="cb3" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
               Fun 🐛
@@ -147,7 +147,7 @@ export default function Commands() {
               </ul>
             </div>
           </section>
-          <input type="radio" name="accordion" id="cb3" />
+          <input type="radio" name="accordion" id="cb4" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb3">
               Customization 👀
@@ -171,7 +171,7 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb4" />
+          <input type="radio" name="accordion" id="cb5" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
               Gameplay 🎲
@@ -195,7 +195,7 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb5" />
+          <input type="radio" name="accordion" id="cb6" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb5">
               Image 🖼️
