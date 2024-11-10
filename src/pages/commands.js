@@ -290,7 +290,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb6" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb6">
-            Information 🎮
+            Information ❗
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -320,7 +320,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb6" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb6">
-            Moderation 🎮
+            Moderation 💻
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -370,7 +370,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb6" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb6">
-            Utility 🎮
+            Utility ⛓️‍💥
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
