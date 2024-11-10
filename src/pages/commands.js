@@ -287,9 +287,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb6" />
+          <input type="radio" name="accordion" id="cb7" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb6">
+            <label className="box-title p-color" htmlFor="cb7">
             Information ❗
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -317,9 +317,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb6" />
+          <input type="radio" name="accordion" id="cb8" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb6">
+            <label className="box-title p-color" htmlFor="cb8">
             Moderation 💻
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -367,9 +367,9 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb6" />
+          <input type="radio" name="accordion" id="cb9" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb6">
+            <label className="box-title p-color" htmlFor="cb9">
             Utility ⛓️‍💥
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
