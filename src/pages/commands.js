@@ -218,22 +218,18 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb5" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb5">
-              Gameplay 🎲
+              Economy 💵
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Economy</kbd> -{" "}
+                  <span className="p-color">Manage your economy with commands.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>WeedFarm (WIP)</kbd> -{" "}
+                  <span className="p-color">Manage your weed farm!</span>
                 </li>
               </ul>
             </div>
