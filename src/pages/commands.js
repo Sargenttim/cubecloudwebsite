@@ -190,22 +190,26 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb4" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
-              Customization 👀
+            Developer 🧑‍💻
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>eval</kbd> -{" "}
+                  <span className="p-color">Evalulate a peice of code</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Serverlist</kbd> -{" "}
+                  <span className="p-color">List of the servers the bot is in</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Simulation</kbd> -{" "}
+                  <span className="p-color">Simulate a boost start or end event for testing purposes</span>
+                </li>
+                <li>
+                  <kbd>Sourcebin</kbd> -{" "}
+                  <span className="p-color">Uploads Code To Sourcebin, And Returns A Link!</span>
                 </li>
               </ul>
             </div>
