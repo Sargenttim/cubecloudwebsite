@@ -287,6 +287,36 @@ export default function Commands() {
             </div>
           </section>
 
+          <input type="radio" name="accordion" id="cb6" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb6">
+            Information 🎮
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>bot</kbd> -{" "}
+                  <span className="p-color">Get Info on the bot</span>
+                </li>
+                <li>
+                  <kbd>help (WIP)</kbd> -{" "}
+                  <span className="p-color">Show the help menu for the bot, listing all commands</span>
+                </li>
+                <li>
+                  <kbd>server</kbd> -{" "}
+                  <span className="p-color">Shows Server information</span>
+                </li>
+                <li>
+                  <kbd>user</kbd> -{" "}
+                  <span className="p-color">Shows User Information</span>
+                </li>
+
+
+              </ul>
+            </div>
+          </section>
+
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
