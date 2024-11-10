@@ -70,11 +70,11 @@ const About = () => {
 
         <section className="about-stats">
           <div className="about-stats-card">
-            <h4 className="h-color">70k+</h4>
+            <h4 className="h-color">60+</h4>
             <p className="p-color">Total Servers</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">100k+</h4>
+            <h4 className="h-color">90K+</h4>
             <p className="p-color">Total Users</p>
           </div>
           <div className="about-stats-card">
