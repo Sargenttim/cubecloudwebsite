@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  CubeCloud
                 </Link>
                 <span
                   style={{
@@ -39,17 +39,17 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="p-color" href="/commands">
-                  /commands
+                  commands
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
-                  /support
+                <Link className="p-color" href="https://discord.gg/m4RBuRUuhB">
+                  support
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
-                  /discord-server
+                <Link className="p-color" href="https://discord.gg/m4RBuRUuhB">
+                  discord-server
                 </Link>
               </li>
             </ul>
@@ -72,13 +72,6 @@ const Footer = () => {
           <div className="footer-sec2-link">
             <Link className="p-color no-decoration" href="#">
               /support
-            </Link>
-            <Link
-              target="_blank"
-              className="p-color no-decoration"
-              href="https://discord.gg/m4RBuRUuhBe"
-            >
-              /source-code
             </Link>
             <Link className="p-color no-decoration" href="#">
               /privacy
