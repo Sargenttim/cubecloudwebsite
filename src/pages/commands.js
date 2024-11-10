@@ -14,10 +14,10 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | BOT</title>
+        <title>Commands | CubeCloud</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️ using NextJS"
+          content="Commands page | Minimal and awesome discord bot website created with ❤️"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -33,17 +33,88 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Anti system ⚙️ ‼️ (This is a WIP system.)
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Backups</kbd> -{" "}
+                  <span className="p-color">Make a Server backup for all your needs, can restore as well when needed.</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
+                  <kbd>Anti-Nuke</kbd> -{" "}
+                  <span className="p-color">Prevents mass bans, kicks, channel deletions, ETC</span>
+                </li>
+                <li>
+                  <kbd>Anti-Spam</kbd> -{" "}
+                  <span className="p-color">Limit message spam, pings, and mass invites.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Raid</kbd> -{" "}
+                  <span className="p-color">Control rapid joins to prevent raids.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Bot Join</kbd> -{" "}
+                  <span className="p-color">Restrict unauthorized bot accounts from joining.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Webhook</kbd> -{" "}
+                  <span className="p-color">Monitor webhook creation and deletion.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Invite Spam</kbd> -{" "}
+                  <span className="p-color">Prevent unauthorized invite links.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Malware</kbd> -{" "}
+                  <span className="p-color">Black harmful or suspicious links.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Alt Account</kbd> -{" "}
+                  <span className="p-color">Block new or suspicious accounts.</span>
+                </li>
+                <li>
+                  <kbd>Role/Permission Protection</kbd> -{" "}
+                  <span className="p-color">Protect importent roles and permissions.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Link</kbd> -{" "}
+                  <span className="p-color">Block untrusted Links.</span>
+                </li>
+                <li>
+                  <kbd>Anti-NSFW</kbd> -{" "}
+                  <span className="p-color">Restrict NSFW content in non-NSFW channels.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Swear</kbd> -{" "}
+                  <span className="p-color">Filter out swear workds and imappropriate language.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Scam Detection</kbd> -{" "}
+                  <span className="p-color">Identify and block common scams.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Phishing Detection</kbd> -{" "}
+                  <span className="p-color">Block links and messages known for phishing scams.</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <input type="radio" name="accordion" id="cb1" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb1">
+              Administrator ⚙️
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>A.I</kbd> -{" "}
+                  <span className="p-color">Manage AI Channels for your server</span>
+                </li>
+                <li>
+                  <kbd></kbd> -{" "}
                   <span className="p-color">Description of command</span>
                 </li>
                 <li>
