@@ -103,7 +103,7 @@ export default function Commands() {
           </section>
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb1">
+            <label className="box-title p-color" htmlFor="cb2">
               Administrator ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -126,7 +126,7 @@ export default function Commands() {
           </section>
           <input type="radio" name="accordion" id="cb3" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb2">
+            <label className="box-title p-color" htmlFor="cb3">
               Fun 🐛
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -149,7 +149,7 @@ export default function Commands() {
           </section>
           <input type="radio" name="accordion" id="cb4" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb3">
+            <label className="box-title p-color" htmlFor="cb4">
               Customization 👀
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -173,7 +173,7 @@ export default function Commands() {
 
           <input type="radio" name="accordion" id="cb5" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb4">
+            <label className="box-title p-color" htmlFor="cb5">
               Gameplay 🎲
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
@@ -197,7 +197,7 @@ export default function Commands() {
 
           <input type="radio" name="accordion" id="cb6" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
+            <label className="box-title p-color" htmlFor="cb6">
               Image 🖼️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
