@@ -39,6 +39,35 @@ const About = () => {
           </Link>
         </p>
 
+        <div className="about-header">
+          <h3 className="h-color">Updates</h3>
+        </div>
+        <div className="about-container">
+          <div className="about-card">
+            <div>
+              <h4 className="h-color">⚡ Bot Updates</h4>
+              <p className="p-color">
+                Lasted Updates:
+                Added Anti System (WIP)
+              </p>
+              <hr />
+            </div>
+            <div>
+              <h4 className="h-color">✉️ Discord Updates</h4>
+              <p className="p-color">
+                Non
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+        <p>
+          <Link href="https://discord.gg/m4RBuRUuhB" className="h-color no-decoration">
+            Join The Server &rarr;
+          </Link>
+        </p>
+
+
         <section className="about-stats">
           <div className="about-stats-card">
             <h4 className="h-color">70k+</h4>
