@@ -111,15 +111,55 @@ export default function Commands() {
               <ul>
                 <li>
                   <kbd>A.I</kbd> -{" "}
-                  <span className="p-color">Manage AI Channels for your server</span>
+                  <span className="p-color">Manage AI Channels for your server.</span>
                 </li>
                 <li>
-                  <kbd></kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Boost log</kbd> -{" "}
+                  <span className="p-color">Manage the boost logging system.</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>Counting</kbd> -{" "}
+                  <span className="p-color">Manage the counting system for your server.</span>
+                </li>
+                <li>
+                  <kbd>Events</kbd> -{" "}
+                  <span className="p-color">Create and manage server events interactively.</span>
+                </li>
+                <li>
+                  <kbd>Global Chat</kbd> -{" "}
+                  <span className="p-color">Manage Global chat.</span>
+                </li>
+                <li>
+                  <kbd>Giveaway</kbd> -{" "}
+                  <span className="p-color">Mangage Giveaways.</span>
+                </li>
+                <li>
+                  <kbd>Join To Create VC</kbd> -{" "}
+                  <span className="p-color">Manage the Join-To-Create System.</span>
+                </li>
+                <li>
+                  <kbd>Leveling</kbd> -{" "}
+                  <span className="p-color">Manage the Leveling System.</span>
+                </li>
+                <li>
+                  <kbd>Role</kbd> -{" "}
+                  <span className="p-color">Manage roles of the Server or Members.</span>
+                </li>
+                <li>
+                  <kbd>Logging (WIP SYSTEM)</kbd> -{" "}
+                  <span className="p-color">Set up Logging System.</span>
+                </li>
+                <li>
+                  <kbd>Setup (WIP SYSTEM)</kbd> -{" "}
+                  <span className="p-color">Be able to Set Everything up in this Cat.</span>
+                </li>
+                <li>
+                  <kbd>Sticky Messages</kbd> -{" "}
+                  <span className="p-color">Set up Sitcky Messages in channels.</span>
+                </li>
+                <li>
+                  <kbd>Ticket</kbd> -{" "}
+                  <span className="p-color">Set up tickets for your server.</span>
                 </li>
               </ul>
             </div>
