@@ -67,12 +67,9 @@ const Footer = () => {
                 Timmy
               </Link>
             </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
+            <p className="p-color">2023 All rights reserved!</p>
           </div>
           <div className="footer-sec2-link">
-            <Link className="p-color no-decoration" href="#">
-              /support
-            </Link>
             <Link className="p-color no-decoration" href="#">
               /privacy
             </Link>
