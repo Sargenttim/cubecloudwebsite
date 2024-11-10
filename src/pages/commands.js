@@ -33,7 +33,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Anti system ⚙️ ‼️ (This is a WIP system.)
+              Anti system ⚙️ ‼️ (This system is still being setup and worked on.)
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
