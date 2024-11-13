@@ -48,14 +48,14 @@ const About = () => {
               <h4 className="h-color">⚡ Bot Updates</h4>
               <p className="p-color">
                 Lasted Updates:
-                Added Anti System (WIP), Fixed Welcome Systen
+                Added Anti System (WIP), Fixed Welcome Systen, Added Tickets, Opened Staff Apps
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✉️ Discord Updates</h4>
               <p className="p-color">
-                Added in Tickets for Support, Fixed invite links, Added invite bot.
+                Updated Global Chat system, added new badges for CubeCloud Members and Staff team, Join today to get new roles.
               </p>
               <hr />
             </div>
