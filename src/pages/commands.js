@@ -33,69 +33,69 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Anti system ⚙️ ‼️ (This system is still being setup and worked on.)
+              Anti system ⚙️ ‼️ (Some commands in here are still being worked on, any Command that says WIP isn't fully functional right now.)
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>Backups</kbd> -{" "}
+                  <kbd>Backups (Works, Tested)</kbd> -{" "}
                   <span className="p-color">Make a Server backup for all your needs, can restore as well when needed.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Nuke</kbd> -{" "}
+                  <kbd>Anti-Nuke (WIP)</kbd> -{" "}
                   <span className="p-color">Prevents mass bans, kicks, channel deletions, ETC</span>
                 </li>
                 <li>
-                  <kbd>Anti-Spam</kbd> -{" "}
+                  <kbd>Anti-Spam (WIP)</kbd> -{" "}
                   <span className="p-color">Limit message spam, pings, and mass invites.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Raid</kbd> -{" "}
+                  <kbd>Anti-Raid (WIP)</kbd> -{" "}
                   <span className="p-color">Control rapid joins to prevent raids.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Bot Join</kbd> -{" "}
+                  <kbd>Anti-Bot Join (WIP)</kbd> -{" "}
                   <span className="p-color">Restrict unauthorized bot accounts from joining.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Webhook</kbd> -{" "}
+                  <kbd>Anti-Webhook (WIP)</kbd> -{" "}
                   <span className="p-color">Monitor webhook creation and deletion.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Invite Spam</kbd> -{" "}
+                  <kbd>Anti-Invite Spam (WIP)</kbd> -{" "}
                   <span className="p-color">Prevent unauthorized invite links.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Malware</kbd> -{" "}
+                  <kbd>Anti-Malware (WIP)</kbd> -{" "}
                   <span className="p-color">Black harmful or suspicious links.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Alt Account</kbd> -{" "}
+                  <kbd>Anti-Alt Account (WIP)</kbd> -{" "}
                   <span className="p-color">Block new or suspicious accounts.</span>
                 </li>
                 <li>
-                  <kbd>Role/Permission Protection</kbd> -{" "}
+                  <kbd>Role/Permission Protection (WIP)</kbd> -{" "}
                   <span className="p-color">Protect importent roles and permissions.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Link</kbd> -{" "}
+                  <kbd>Anti-Link (WIP)</kbd> -{" "}
                   <span className="p-color">Block untrusted Links.</span>
                 </li>
                 <li>
-                  <kbd>Anti-NSFW</kbd> -{" "}
+                  <kbd>Anti-NSFW (WIP)</kbd> -{" "}
                   <span className="p-color">Restrict NSFW content in non-NSFW channels.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Swear</kbd> -{" "}
+                  <kbd>Anti-Swear (WIP)</kbd> -{" "}
                   <span className="p-color">Filter out swear workds and imappropriate language.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Scam Detection</kbd> -{" "}
+                  <kbd>Anti-Scam Detection (WIP)</kbd> -{" "}
                   <span className="p-color">Identify and block common scams.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Phishing Detection</kbd> -{" "}
+                  <kbd>Anti-Phishing Detection (WIP)</kbd> -{" "}
                   <span className="p-color">Block links and messages known for phishing scams.</span>
                 </li>
               </ul>
