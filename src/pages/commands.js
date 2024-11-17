@@ -384,6 +384,10 @@ export default function Commands() {
                   <span className="p-color">Embed any message you setup in a channel</span>
                 </li>
                 <li>
+                <li>
+                  <kbd>emoji</kbd> -{" "}
+                  <span className="p-color">Advanced emoji management system.</span>
+                </li>
                   <kbd>imageupload (WIP)</kbd> -{" "}
                   <span className="p-color">Upload an attachment to the CDN repository</span>
                 </li>

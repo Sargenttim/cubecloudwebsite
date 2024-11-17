@@ -48,7 +48,7 @@ const About = () => {
               <h4 className="h-color">⚡ Bot Updates</h4>
               <p className="p-color">
                 Lasted Updates:
-                Added Anti System (WIP), Fixed Welcome Systen, Added Tickets, Opened Staff Apps
+                Updated Leveling added new photos
               </p>
               <hr />
             </div>
