@@ -49,6 +49,7 @@ const About = () => {
               <p className="p-color">
                 Lasted Updates:
                 Updated Leveling added new photos
+                Added in Anti System
               </p>
               <hr />
             </div>
