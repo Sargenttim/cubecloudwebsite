@@ -33,7 +33,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Anti system ⚙️ ‼️ (Some commands in here are still being worked on, any Command that says WIP isn't fully functional right now.)
+              Anti system ⚙️ ‼️ (Commands are done, still in testing Feel free to use this.)
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -43,60 +43,44 @@ export default function Commands() {
                   <span className="p-color">Make a Server backup for all your needs, can restore as well when needed.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Nuke (WIP)</kbd> -{" "}
+                  <kbd>Anti-Nuke (Working)</kbd> -{" "}
                   <span className="p-color">Prevents mass bans, kicks, channel deletions, ETC</span>
                 </li>
                 <li>
-                  <kbd>Anti-Spam (WIP)</kbd> -{" "}
+                  <kbd>Anti-Spam (Working)</kbd> -{" "}
                   <span className="p-color">Limit message spam, pings, and mass invites.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Raid (WIP)</kbd> -{" "}
+                  <kbd>Anti-Raid (Working)</kbd> -{" "}
                   <span className="p-color">Control rapid joins to prevent raids.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Bot Join (WIP)</kbd> -{" "}
+                  <kbd>Anti-Bot Join (Coming Soon!)</kbd> -{" "}
                   <span className="p-color">Restrict unauthorized bot accounts from joining.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Webhook (WIP)</kbd> -{" "}
+                  <kbd>Anti-Webhook (Coming Soon!)</kbd> -{" "}
                   <span className="p-color">Monitor webhook creation and deletion.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Invite Spam (WIP)</kbd> -{" "}
+                  <kbd>Anti-Invite Spam (Coming Soon!)</kbd> -{" "}
                   <span className="p-color">Prevent unauthorized invite links.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Malware (WIP)</kbd> -{" "}
-                  <span className="p-color">Black harmful or suspicious links.</span>
-                </li>
-                <li>
-                  <kbd>Anti-Alt Account (WIP)</kbd> -{" "}
+                  <kbd>Anti-Alt Account (Working)</kbd> -{" "}
                   <span className="p-color">Block new or suspicious accounts.</span>
                 </li>
                 <li>
-                  <kbd>Role/Permission Protection (WIP)</kbd> -{" "}
-                  <span className="p-color">Protect importent roles and permissions.</span>
-                </li>
-                <li>
-                  <kbd>Anti-Link (WIP)</kbd> -{" "}
+                  <kbd>Anti-Link (Working)</kbd> -{" "}
                   <span className="p-color">Block untrusted Links.</span>
                 </li>
                 <li>
-                  <kbd>Anti-NSFW (WIP)</kbd> -{" "}
+                  <kbd>Anti-NSFW (Coming Soon!)</kbd> -{" "}
                   <span className="p-color">Restrict NSFW content in non-NSFW channels.</span>
                 </li>
                 <li>
-                  <kbd>Anti-Swear (WIP)</kbd> -{" "}
+                  <kbd>Anti-Swear (Working)</kbd> -{" "}
                   <span className="p-color">Filter out swear workds and imappropriate language.</span>
-                </li>
-                <li>
-                  <kbd>Anti-Scam Detection (WIP)</kbd> -{" "}
-                  <span className="p-color">Identify and block common scams.</span>
-                </li>
-                <li>
-                  <kbd>Anti-Phishing Detection (WIP)</kbd> -{" "}
-                  <span className="p-color">Block links and messages known for phishing scams.</span>
                 </li>
               </ul>
             </div>
