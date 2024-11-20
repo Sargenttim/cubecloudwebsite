@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 import { motion } from "framer-motion";
 
-export default function pp() {
+export default function policy () {
   return (
     <motion.div
       initial={{
