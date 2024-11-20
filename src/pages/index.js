@@ -8,7 +8,7 @@ import Showcase from "@/components/Showcase";
 import About from "@/components/About";
 import JoinNow from "@/components/JoinNow";
 import Footer from "@/components/Footer";
-import PrivacyPolicy from "@/components/pp";
+import privacy from "@/components/privacy";
 
 export default function Home() {
   return (
