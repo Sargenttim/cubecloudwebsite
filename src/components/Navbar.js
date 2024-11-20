@@ -34,6 +34,11 @@ const Navbar = () => {
                 Discord Server
               </Link>
             </li>
+            <li>
+              <Link className="p=color" href="/PrivacyPolicy">
+              Privacy Policy
+              </Link>
+            </li>
           </ul>
         </nav>
       </navbar>
