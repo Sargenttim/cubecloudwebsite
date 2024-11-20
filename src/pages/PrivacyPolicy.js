@@ -27,8 +27,13 @@ export default function Commands() {
         <nav className="accordion arrows" id="PrivacyPolicy">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Privacy Polic /m
-              Last updated: November 20, 2024
+              ⚡ Privacy Policy
+            </label>
+          </header>
+          <input type="radio" name="accordion" id="cb1" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb1">
+            Last updated: November 20, 2024 /n 
 
             This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -204,12 +209,6 @@ export default function Commands() {
             If you have any questions about this Privacy Policy, You can contact us:
 
             By visiting this page on our website: https://discord.gg/m4RBuRUuhB
-
-            </label>
-          </header>
-          <input type="radio" name="accordion" id="cb1" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb1">
             </label>
           </section>
 
