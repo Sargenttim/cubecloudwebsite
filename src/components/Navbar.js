@@ -26,17 +26,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link className="p-color" href="/pp">
+              Privacy Policy
+              </Link>
+            </li>
+            <li>
               <Link
                 className="p-color"
                 href="https://discord.gg/m4RBuRUuhB"
                 target="_blank"
               >
                 Discord Server
-              </Link>
-            </li>
-            <li>
-              <Link className="p=color" href="/PrivacyPolicy">
-              Privacy Policy
               </Link>
             </li>
           </ul>
