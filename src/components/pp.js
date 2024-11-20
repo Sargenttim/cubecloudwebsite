@@ -1,91 +1,94 @@
-import Link from "next/link";
+import Head from "next/head";
 
-const pp = () => {
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+import { motion } from "framer-motion";
+
+export default function pp() {
   return (
-    <>
-      <section className="pp-section" id="pp-section">
-        <div className="pp-header">
-          <h3 className="h-color">Why use this bot?</h3>
-        </div>
-        <div className="pp-container">
-          <div className="pp-card">
-            <div>
-              <h4 className="h-color">⚡ Commands</h4>
-              <p className="p-color">
-                We have more than 50 commands support in this bot.
-              </p>
-              <hr />
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{ opacity: 1 }}
+    >
+      <Head>
+        <title>Commands | CubeCloud</title>
+        <meta
+          name="description"
+          content="Commands page | Minimal and awesome discord bot website created with ❤️"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Navbar />
+      <section className="about-section">
+        <nav className="accordion arrows" id="commands">
+          <header className="box">
+            <label htmlFor="acc-close" className="box-title h-color">
+              ⚡ Commands
+            </label>
+          </header>
+          <input type="radio" name="accordion" id="cb1" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb1">
+              Anti system ⚙️ ‼️ (Commands are done, still in testing Feel free to use this.)
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
+              <ul>
+                <li>
+                  <kbd>Backups (Works, Tested)</kbd> -{" "}
+                  <span className="p-color">Make a Server backup for all your needs, can restore as well when needed.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Nuke (Working)</kbd> -{" "}
+                  <span className="p-color">Prevents mass bans, kicks, channel deletions, ETC</span>
+                </li>
+                <li>
+                  <kbd>Anti-Spam (Working)</kbd> -{" "}
+                  <span className="p-color">Limit message spam, pings, and mass invites.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Raid (Working)</kbd> -{" "}
+                  <span className="p-color">Control rapid joins to prevent raids.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Bot Join (Coming Soon!)</kbd> -{" "}
+                  <span className="p-color">Restrict unauthorized bot accounts from joining.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Webhook (Coming Soon!)</kbd> -{" "}
+                  <span className="p-color">Monitor webhook creation and deletion.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Invite Spam (Coming Soon!)</kbd> -{" "}
+                  <span className="p-color">Prevent unauthorized invite links.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Alt Account (Working)</kbd> -{" "}
+                  <span className="p-color">Block new or suspicious accounts.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Link (Working)</kbd> -{" "}
+                  <span className="p-color">Block untrusted Links.</span>
+                </li>
+                <li>
+                  <kbd>Anti-NSFW (Coming Soon!)</kbd> -{" "}
+                  <span className="p-color">Restrict NSFW content in non-NSFW channels.</span>
+                </li>
+                <li>
+                  <kbd>Anti-Swear (Working)</kbd> -{" "}
+                  <span className="p-color">Filter out swear workds and imappropriate language.</span>
+                </li>
+              </ul>
             </div>
-            <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
-              <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✏️ Customization</h4>
-              <p className="p-color">
-                Fully customizable discord bot completely FREE!
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
-          </Link>
-        </p>
-
-        <div className="pp-header">
-          <h3 className="h-color">Updates</h3>
-        </div>
-        <div className="pp-container">
-          <div className="pp-card">
-            <div>
-              <h4 className="h-color">⚡ Bot Updates</h4>
-              <p className="p-color">
-                Lasted Updates:
-                Updated Leveling added new photos
-                Added in Anti System
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✉️ Discord Updates</h4>
-              <p className="p-color">
-                Updated Global Chat system, added new badges for CubeCloud Members and Staff team, Join today to get new roles.
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="https://discord.gg/m4RBuRUuhB" className="h-color no-decoration">
-            Join The Server &rarr;
-          </Link>
-        </p>
-
-
-        <section className="pp-stats">
-          <div className="pp-stats-card">
-            <h4 className="h-color">60+</h4>
-            <p className="p-color">Total Servers</p>
-          </div>
-          <div className="pp-stats-card">
-            <h4 className="h-color">90K+</h4>
-            <p className="p-color">Total Users</p>
-          </div>
-          <div className="pp-stats-card">
-            <h4 className="h-color">50+</h4>
-            <p className="p-color">Total Commands</p>
-          </div>
-        </section>
+          </section>
+          <input type="radio" name="accordion" id="acc-close" />
+        </nav>
       </section>
-    </>
+      <Footer />
+    </motion.div>
   );
-};
-
-export default pp;
+}
