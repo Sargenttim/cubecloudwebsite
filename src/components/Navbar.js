@@ -37,7 +37,7 @@ const Navbar = () => {
                 href="https://github.com/Sargenttim/CCtos-pp/blob/main/Terms%20of%20Service"
                 target="_blank"
                 >
-              Terms of Service
+              TOS
             </Link>
             <li>
               <Link
