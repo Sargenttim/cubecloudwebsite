@@ -33,12 +33,14 @@ const Navbar = () => {
               Privacy Policy
               </Link>
             </li>
+            <li>
             <Link className="p-color"
                 href="https://github.com/Sargenttim/CCtos-pp/blob/main/Terms%20of%20Service"
                 target="_blank"
                 >
-              TOS
+              Terms of Service
             </Link>
+            </li>
             <li>
               <Link
                 className="p-color"
