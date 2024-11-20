@@ -26,7 +26,7 @@ export default function Commands() {
       <section className="about-section">
         <nav className="accordion arrows" id="PrivacyPolicy">
           <header className="box">
-            <label htmlFor="acc-close" className="box-title h-color">
+            <label htmlFor="acc-open" className="box-title h-color">
               ⚡ Privacy Policy
             </label>
           </header>
