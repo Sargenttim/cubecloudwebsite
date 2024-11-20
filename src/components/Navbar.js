@@ -27,14 +27,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="p-color"
-                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Privacy%20Policy"
+                href="https://github.com/Sargenttim/CCtos-pp/blob/main/Privacy%20Policy"
                 target="_blank"
                 >
               Privacy Policy
               </Link>
             </li>
             <Link className="p-color"
-                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
+                href="https://github.com/Sargenttim/CCtos-pp/blob/main/Terms%20of%20Service"
                 target="_blank"
                 >
               Terms of Service
