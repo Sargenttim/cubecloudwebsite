@@ -26,7 +26,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="p-color" href="/pp">
+              <Link className="p-color"
+                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Privacy%20Policy"
+                target="_blank"
+                >
               Privacy Policy
               </Link>
             </li>

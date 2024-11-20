@@ -70,7 +70,10 @@ const Footer = () => {
             <p className="p-color">2023 All rights reserved!</p>
           </div>
           <div className="footer-sec2-link">
-            <Link className="p-color no-decoration" href="#">
+            <Link className="p-color"
+                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Privacy%20Policy"
+                target="_blank"
+                >
               /privacy
             </Link>
           </div>
