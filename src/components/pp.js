@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const PrivacyPolicy = () => {
+const pp = () => {
   return (
     <>
       <section className="pp-section" id="pp-section">
