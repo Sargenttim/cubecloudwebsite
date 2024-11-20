@@ -76,12 +76,14 @@ const Footer = () => {
                 >
               Privacy Policy
             </Link>
+            <div className="footer-sec2-link">
             <Link className="p-color"
                 href="https://github.com/Sargenttim/CCtos-pp/blob/main/Terms%20of%20Service"
                 target="_blank"
                 >
               Terms of Service
             </Link>
+            </div>
           </div>
         </div>
       </footer>
