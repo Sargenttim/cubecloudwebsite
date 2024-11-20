@@ -1,91 +1,57 @@
-import Link from "next/link";
+import Head from "next/head";
+
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+import { motion } from "framer-motion";
+
+  
 
 const PrivacyPolicy = () => {
   return (
-    <>
-      <section className="about-section" id="about-section">
-        <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
-        </div>
-        <div className="about-container">
-          <div className="about-card">
-            <div>
-              <h4 className="h-color">⚡ Commands</h4>
-              <p className="p-color">
-                We have more than 50 commands support in this bot.
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
-              <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✏️ Customization</h4>
-              <p className="p-color">
-                Fully customizable discord bot completely FREE!
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
-          </Link>
-        </p>
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      animate={{ opacity: 1 }}
+    >
+      <Head>
+        <title>Commands | CubeCloud</title>
+        <meta
+          name="description"
+          content="Commands page | Minimal and awesome discord bot website created with ❤️"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Navbar />
+      <section className="about-section">
+        <nav className="accordion arrows" id="commands">
+          <header className="box">
+            <label htmlFor="acc-close" className="box-title h-color">
+              ⚡ Commands
+            </label>
+          </header>
+          <input type="radio" name="accordion" id="cb1" />
+          <section className="box">
+            <label className="box-title p-color" htmlFor="cb1">
+              Anti system ⚙️ ‼️ (Commands are done, still in testing Feel free to use this.)
+            </label>
+            <label className="box-close" htmlFor="acc-close"></label>
+            <div className="box-content p-color">
 
-        <div className="about-header">
-          <h3 className="h-color">Updates</h3>
-        </div>
-        <div className="about-container">
-          <div className="about-card">
-            <div>
-              <h4 className="h-color">⚡ Bot Updates</h4>
-              <p className="p-color">
-                Lasted Updates:
-                Updated Leveling added new photos
-                Added in Anti System
-              </p>
-              <hr />
+              This is a testing system.
+              
             </div>
-            <div>
-              <h4 className="h-color">✉️ Discord Updates</h4>
-              <p className="p-color">
-                Updated Global Chat system, added new badges for CubeCloud Members and Staff team, Join today to get new roles.
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="https://discord.gg/m4RBuRUuhB" className="h-color no-decoration">
-            Join The Server &rarr;
-          </Link>
-        </p>
-
-
-        <section className="about-stats">
-          <div className="about-stats-card">
-            <h4 className="h-color">60+</h4>
-            <p className="p-color">Total Servers</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">90K+</h4>
-            <p className="p-color">Total Users</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">50+</h4>
-            <p className="p-color">Total Commands</p>
-          </div>
-        </section>
+          </section>
+          <input type="radio" name="accordion" id="acc-close" />
+        </nav>
       </section>
-    </>
+
+
+      <Footer />
+    </motion.div>
   );
-};
+}
 
 export default PrivacyPolicy;
