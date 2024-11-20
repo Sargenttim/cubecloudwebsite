@@ -1,91 +1,70 @@
-import Link from "next/link";
+/**
+ * For privacy page to make sidebar sticky and to scroll after clicking on links.
+ */
+new StickySidebar('.sidebar');
 
-const PrivacyPolicy = () => {
-  return (
-    <>
-      <section className="about-section" id="about-section">
-        <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
-        </div>
-        <div className="about-container">
-          <div className="about-card">
-            <div>
-              <h4 className="h-color">⚡ Commands</h4>
-              <p className="p-color">
-                We have more than 50 commands support in this bot.
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
-              <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✏️ Customization</h4>
-              <p className="p-color">
-                Fully customizable discord bot completely FREE!
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
-          </Link>
-        </p>
+var sidebarLinks = document.querySelectorAll('.js-scroll-to'),
+  i;
 
-        <div className="about-header">
-          <h3 className="h-color">Updates</h3>
-        </div>
-        <div className="about-container">
-          <div className="about-card">
-            <div>
-              <h4 className="h-color">⚡ Bot Updates</h4>
-              <p className="p-color">
-                Lasted Updates:
-                Updated Leveling added new photos
-                Added in Anti System
-              </p>
-              <hr />
-            </div>
-            <div>
-              <h4 className="h-color">✉️ Discord Updates</h4>
-              <p className="p-color">
-                Updated Global Chat system, added new badges for CubeCloud Members and Staff team, Join today to get new roles.
-              </p>
-              <hr />
-            </div>
-          </div>
-        </div>
-        <p>
-          <Link href="https://discord.gg/m4RBuRUuhB" className="h-color no-decoration">
-            Join The Server &rarr;
-          </Link>
-        </p>
+for (i = 0; i < sidebarLinks.length; ++i) {
+  sidebarLinks[i].addEventListener('click', function (event) {
+    var targetLink = event.target;
+    var targetAnchor = document.querySelector('#' + targetLink.dataset.anchor);
 
+    event.preventDefault();
 
-        <section className="about-stats">
-          <div className="about-stats-card">
-            <h4 className="h-color">60+</h4>
-            <p className="p-color">Total Servers</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">90K+</h4>
-            <p className="p-color">Total Users</p>
-          </div>
-          <div className="about-stats-card">
-            <h4 className="h-color">50+</h4>
-            <p className="p-color">Total Commands</p>
-          </div>
-        </section>
-      </section>
-    </>
-  );
-};
+    for (var j = 0; j < sidebarLinks.length; ++j) {
+      sidebarLinks[j].classList.remove('highlighted');
+    }
 
-export default PrivacyPolicy;
+    targetLink.classList.add('highlighted');
+
+    targetAnchor.scrollIntoView({ behavior: 'smooth' });
+  });
+}
+
+if (sidebarLinks.length > 0) {
+  var anchor = window.location.hash.substr(1);
+
+  if (anchor) {
+    var targetAnchor = document.querySelector('#' + anchor);
+
+    if (targetAnchor) {
+      targetAnchor.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+}
+
+var tags = document.querySelectorAll('.js-tags');
+
+for (j = 0; j < tags.length; ++j) {
+  tags[j].addEventListener('click', function (event) {
+    var targetTag = event.target;
+    var targetAnchor = document.getElementById(targetTag.dataset.anchor);
+
+    document.getElementById('act-togle-4').checked = true;
+    targetAnchor.scrollIntoView({ behavior: 'smooth' });
+  })
+}
+
+var checkers = document.querySelectorAll('.act-checker');
+var openAllLink = document.querySelector('.js-open-all');
+var closeAllLink = document.querySelector('.js-close-all');
+
+openAllLink.addEventListener('click', function () {
+  openAllLink.classList.add('bs--hidden');
+  closeAllLink.classList.add('bs--visible');
+
+  for (var i = 0; i < checkers.length; i++) {
+    checkers[i].checked = true;
+  }
+});
+
+closeAllLink.addEventListener('click', function () {
+  closeAllLink.classList.remove('bs--visible');
+  openAllLink.classList.remove('bs--hidden');
+
+  for (var i = 0; i < checkers.length; i++) {
+    checkers[i].checked = false;
+  }
+});
