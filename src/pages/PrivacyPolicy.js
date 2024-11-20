@@ -14,17 +14,17 @@ export default function Commands() {
       animate={{ opacity: 1 }}
     >
       <Head>
-        <title>Commands | CubeCloud</title>
+        <title>Privacy Policy | CubeCloud</title>
         <meta
           name="description"
-          content="Commands page | Minimal and awesome discord bot website created with ❤️"
+          content="Privacy Policy page | Minimal and awesome discord bot website created with ❤️"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <section className="about-section">
-        <nav className="accordion arrows" id="commands">
+        <nav className="accordion arrows" id="PrivacyPolicy">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
               ⚡ Privacy Policy
