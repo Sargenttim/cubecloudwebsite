@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const policy = () => {
+const PrivacyPolicy = () => {
   return (
     <>
       <section className="about-section" id="about-section">
@@ -88,4 +88,4 @@ const policy = () => {
   );
 };
 
-export default policy;
+export default PrivacyPolicy;
