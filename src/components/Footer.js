@@ -76,6 +76,12 @@ const Footer = () => {
                 >
               /privacy
             </Link>
+            <Link className="p-color"
+                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
+                target="_blank"
+                >
+              /tos
+            </Link>
           </div>
         </div>
       </footer>

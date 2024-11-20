@@ -42,6 +42,14 @@ const Navbar = () => {
                 Discord Server
               </Link>
             </li>
+            <li>
+            <Link className="p-color"
+                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
+                target="_blank"
+                >
+              /tos
+            </Link>
+            </li>
           </ul>
         </nav>
       </navbar>
