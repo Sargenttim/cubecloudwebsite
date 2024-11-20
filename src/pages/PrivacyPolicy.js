@@ -34,14 +34,13 @@ const PrivacyPolicy = () => {
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
-            <label className="box-title p-color" htmlFor="cb1">
+            <label htmlFor="acc-close" className="box-title h-color">
               Anti system ⚙️ ‼️ (Commands are done, still in testing Feel free to use this.)
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
 
-              This is a testing system.
-              
+              This is a testing
             </div>
           </section>
           <input type="radio" name="accordion" id="acc-close" />
