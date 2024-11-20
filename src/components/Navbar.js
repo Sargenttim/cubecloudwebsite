@@ -33,6 +33,12 @@ const Navbar = () => {
               Privacy Policy
               </Link>
             </li>
+            <Link className="p-color"
+                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
+                target="_blank"
+                >
+              Terms of Service
+            </Link>
             <li>
               <Link
                 className="p-color"
@@ -43,12 +49,6 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-            <Link className="p-color"
-                href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
-                target="_blank"
-                >
-              /tos
-            </Link>
             </li>
           </ul>
         </nav>

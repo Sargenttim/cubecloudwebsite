@@ -74,13 +74,13 @@ const Footer = () => {
                 href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Privacy%20Policy"
                 target="_blank"
                 >
-              /privacy
+              Privacy Policy
             </Link>
             <Link className="p-color"
                 href="https://github.com/Sargenttim/cubecloudwebsite/blob/main/Terms%20of%20Service"
                 target="_blank"
                 >
-              /tos
+              Terms of Service
             </Link>
           </div>
         </div>
